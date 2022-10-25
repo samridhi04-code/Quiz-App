@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import './components/home.css';
+@import '../styles/base/base.css';
+@import '../styles/components/play.css';
+@import '../styles/components/quiz-instructions.css';

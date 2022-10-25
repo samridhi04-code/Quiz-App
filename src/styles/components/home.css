@@ -1,0 +1,75 @@
+#Home{
+    background-image: url('../../assets/image/quiz\ image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: space-around;
+}
+#Home section{
+    background-color:rgb(103, 100, 100);
+    height: 80%;
+    width: 35%;
+    padding: 0 2rem;
+    opacity: 0.9;
+}
+#Home h1{
+    text-align: center;
+    color : #f8f8f8;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.play-button-container{
+    width: 100%;
+    margin-top: 40px;
+}
+.play-button{
+    background-color: rgb(16, 181, 16);
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.3s linear all;
+    text-decoration: none;
+    font-size: 18px;
+}
+.play-button:hover{
+    background-color: darken(rgb(16, 181, 16), 10%);
+}
+.login-button:hover{
+    background-color: darken( rgb(255, 166, 0, 0.829), 10%);
+}
+.register-button:hover{
+    background-color: darken(rgb(64, 137, 247), 10%);
+}
+.auth-container{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 60px ;
+}
+.auth-container .auth-buttons{
+    color:#fff;
+    border-radius: 30px;
+    cursor: pointer;
+    padding:1rem 0;
+    text-align: center;
+    width:45%;
+    transition: 0.3s linear all;
+    text-decoration: none;
+    font-size: 18px;
+}
+#login-button{
+    background-color: rgba(255, 166, 0, 0.829);
+}
+#register-button{
+    background-color:rgb(64, 137, 247)  ;
+}
+.list{
+    list-style: none;
+}

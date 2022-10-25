@@ -1,0 +1,56 @@
+.instructions {
+    border: 1px solid darken(white, 10%);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px 30px;
+}
+    h1 {
+        color: black;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .lifeline {
+        position: relative;
+        top: -3px;
+    }
+
+    .lifeline-icon {
+        color: green;
+        cursor: pointer;
+    }
+
+    .browser-default {
+        padding-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    img {
+        width: 80%;
+        height: 50%;
+    }
+
+
+@media (max-width: 80%) {
+    .instructions img {
+        width: 100% !important;
+        height: 150% !important;
+    }
+}
+.Hash{
+     display: flex;
+   justify-content: space-between;
+    margin-top: 50px;
+}
+.right, .left{
+    background-color: burlywood;
+    color: black;
+    padding: 8px;
+    border-radius: 30px;
+}
+.Hash a{
+    text-decoration: none !important;
+    font-weight: bold;
+}
